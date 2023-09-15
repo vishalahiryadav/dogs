@@ -1,0 +1,867 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 10px;
+  vertical-align: center;
+}
+
+h1, h2, h3, h4, h5, h6,button,input {
+  font-family: "Montserrat-Bold";
+  color:#3A383C;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: normal;
+}
+p,a{
+  font-size: 2rem;
+}
+label{
+  font-size: 1.5rem;
+}
+/* Navigation Bar */
+.header-container {
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+.navbar {
+  padding-top: 1rem;
+  background-color: #ffffffe0;
+}
+
+.header-container::after {
+  content: "";
+  width: 100%;
+  display: block;
+  border-bottom: .1rem solid #162A51;
+}
+
+.navbar-nav {
+  /* align-items:center; */
+}
+
+.navbar-brand {
+  margin-left: 0.5rem;
+}
+
+.nav-item a:hover {
+  color: #000;
+}
+
+.header_login_form_btn {
+  background: none;
+  color: #162A51;
+  padding: 0.3rem;
+  width: 8rem;
+  border: none
+}
+.header_login_form_btn:hover{
+  color: #000;
+}
+
+/*Start Login button */
+
+.pop_up_login_form ,.adoption-form-container {
+  background-color: #162A51;
+  border-radius: 1rem;
+  top: 21%;
+  position: fixed;
+  width: 50rem;
+  padding: 2rem;
+  opacity: 0.95;
+}
+.popup_login_form_btn_class{
+    width: 35%;
+    color: white;
+    background: #D3DB50;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 1rem 0rem;
+}
+.user_login_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button.google_signup_btn_class.mt-2 {
+  width: 35%;
+  border: 0.1rem solid #162A51;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  background: white;
+  /* margin-left: 31%; */
+}
+/*end Login button */
+
+/* header section ends here */
+
+/*landingpage start here*/
+.landing_content_container {
+  margin-top: 1rem;
+}
+.newest_pet_home_inner_container {
+  width: 74%;
+  margin-left: 13%;
+  text-align: center;
+}
+
+.hero_image_container {
+  position: relative;
+  width: 100%;
+  /* max-width: 600px; Set a maximum width for the container */
+  margin: 0 auto;
+  /* Center the container horizontally */
+}
+
+.hero_image_container img {
+  width: 100%;
+  display: block;
+  /* object-fit: contain; */
+}
+
+.card-col{
+  position: relative;
+}
+.home_pet_sort_landing_page_container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.pet_category_select_home_container {
+
+  background: white;
+  width: 100%;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  padding: 1rem 6rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* pet card start here*/
+
+.pet_card_media_img {
+  height: 30rem;
+  object-fit:cover;
+}
+
+.card{
+   height: 35rem;
+   /* width: 25rem; */
+}
+
+/* pet card  end here*/
+
+
+/*landingpage ends here*/
+
+/*how it works start here */
+.how_it_works_container.mt-5 {
+  background-color: #E7E9F0;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.row.how_it_works_inner_container {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+button.how_it_works_title_num_button {
+  border-radius: 3.3rem;
+  background: #FFF;
+  width: 6rem;
+  padding: 0.6rem;
+  outline: none;
+  border: none;
+}
+
+h3.how_it_works_inner_content_heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.col.col-md-8.how_it_works_inner_description_container {
+background-color: red;
+text-align: center;
+}
+
+/*how it works end here */
+
+/*Newsletter section */
+
+.newsletter-from-container {
+  background-color: #162A51;
+  padding: 2rem;
+}
+
+.newsletter-form-inner-container {
+  text-align: left;
+  padding: 2rem;
+  width: 80%;
+}
+
+h1.newsletter-form-inner-container-heading {
+  font-weight: bold;
+  color: #7E90D1;
+}
+
+.newsletter-form-inner-container p {
+  font-size: 2.3rem;
+  line-height: 4rem;
+  width: 50rem;
+  color: #E7E9F0;
+}
+
+.newsletter_form_input {
+  padding: 1.2rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  width: 50rem;
+  border: 1px solid #d2d1d3;
+}
+
+.news_btn_class {
+  /* font-size: 1rem; */
+  padding: 1.3rem 1.3rem;
+  background: #7E90D1;
+  border: none;
+  color: white;
+  border-radius: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+/* newsletter section end here */
+
+/* Footer Section start here*/
+.footer_container {
+  background-color: #F9F7FC;
+}
+.footer_container h4,.footer_container h3{
+  margin: 1rem 0rem;
+}
+
+
+.footer_contact_us_cotainer {
+  padding-top: 3rem;
+}
+.footer_about_us_container,.footer_useful_link_cotainer,.footer_contact_us_cotainer{
+  text-align: left;
+  padding: 2rem;
+}
+a.footer_useful_link {
+  color: grey;
+  text-decoration: none;
+}
+
+li.footer_useful_link_list {
+  font-size: 2rem;
+}
+
+.contactus_form_input {
+  padding: 1rem;
+  border-radius: 0.2rem;
+  font-size: 2.5rem;
+  border: none;
+  outline: none;
+  border: 1px solid #d2d1d3;
+  margin: 0.5rem;
+}
+
+.contactus_btn_class {
+  border: none;
+  color: white;
+  border-radius: 3px;
+  background: #162A51;
+
+}
+::-webkit-input-placeholder {
+  text-align: center;
+}
+:-moz-placeholder {
+  text-align: center;
+}
+::-moz-placeholder {
+  text-align: center;
+}
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+/* Footer Section end here*/
+
+/*loader screen start here*/
+#loading-screen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.loading-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  border-top-color: #8D4DF4;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*loader screen ends here*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.message-popup-model {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.message-popup-model-content {
+  padding: 1rem;
+  border-radius: 16px;
+  width: 30rem;
+  height: 300px;
+  /* margin: auto; */
+  text-align: center;
+  background-image: url(./images/success_msg.png);
+  background-size: cover;
+  background-position: center;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+.error-popup-model-content {
+  background-image: url(./images/error_msg.png);
+}
+
+.message-text {
+  font-size: 18px;
+}
+
+/* loading screen ends here*/
+/* signup form start here*/
+
+.sign_up_form {
+  background: #FBFAF7;
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  /* align-items:start; */
+  justify-content: center;
+}
+.sign_up_img {
+  width:47%;
+}
+
+.sign_up_right_section {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  /* background-color: blueviolet; */
+}
+
+.google_signup_button > svg {
+  margin-right: 1rem;
+}
+.google_signup_button {
+  font-size: 2.6rem;
+  display: inline-flex;
+  padding: 1.4rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: #F5F5F5;
+  border: 0;
+  width: 70%;
+}
+
+
+input.signup_form_input {
+  width: 80%;
+  border: 1px solid #d2d1d3;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  margin-top: 0.5rem;
+}
+
+button.signup_btn_class {
+  width: 60%;
+  /* font-size: 1rem; */
+  color: white;
+  background: #7E90D1;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+}
+input::placeholder {
+  text-align: center;
+  font-size: 1.8rem;
+
+}
+.sign_up_right_section > h1 {
+  font-weight: 600;
+  font-size: 3.4rem;
+}
+.sign_up_right_section  .img-fluid{
+  max-width: 67%;
+}
+
+.input_checkbox{
+  margin: 0rem 1.5rem 0rem 0rem;
+
+}
+.term{
+  font-size: 1.2rem;
+}
+
+
+/*sign up form ends here */
+/* forgotpassword component start*/
+.forgot-password-full-container{
+
+}
+.forgot-password-container {
+  width: 45rem;
+  background: #FBFAF7;
+  padding: 3rem;
+  text-align: left;
+  border-radius: 10px;
+  margin: 2rem auto;
+}
+
+.forgot-pwd-title-container {
+  width: 80%;
+  padding-top: 3rem;
+  color: black;
+}
+
+.forgot-pwd-from {
+  margin-top: 3rem;
+}
+
+.forgot-pwd-btn {
+  color: white;
+  background: #162A51;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 0.5rem;
+}
+
+/* forgotpassword component ends*/
+
+/* contactus component start*/
+.contact-us-pop-up-container {
+  background: white;
+  position: fixed;
+  top: 50%;
+  /* left: 35%; */
+  margin: 0rem auto;
+  border-radius: 5px;
+  padding: 25px;
+  z-index: 2;
+}
+
+.contact-us-pop-message {
+  margin-top: 20px;
+  width: 18rem;
+}
+
+.contact-us-pop-checkmark {
+  width: 70px;
+  height: 70px;
+}
+
+/* contactus component ends*/
+/* single pet and image gallery start*/
+.row.pet-details-Image-container {
+  background: #F2F1F3;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+
+.pet-image-gallery {
+  border-radius: 7px;
+}
+
+.main-pet-image {
+  margin: 1rem;
+  background: white;
+  border-radius: 6px;
+  object-fit:cover;
+}
+
+.selected-image {
+  width: 50%;
+  height: 45rem;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.pet-image-thumbnails {
+  margin: 1rem;
+  border-radius: 6px;
+}
+
+.thunbnail-images {
+  width: 20%;
+  height: 12rem;
+  background: white;
+  margin: 0.5rem;
+  border-radius: 0.6rem;
+}
+
+.active-thumbnail {
+  border: 1px solid blue;
+}
+
+.col.col-md-6.single-pet-details {
+  padding: 3rem;
+  text-align: left;
+  margin-top: 0.5rem;
+}
+
+button.pet-details-btn {
+  border: 1px solid #162A51;
+  padding: 4px;
+  border-radius: 5px;
+  margin: 0.5rem 1rem 0.5rem 0rem;
+}
+
+.pet-short-description-city-container {
+  margin-top: 2rem;
+}
+
+.pet-short-description {
+  background: whitesmoke;
+  width: 68%;
+}
+
+.pet-short-description-header {
+  border-bottom: 1px solid grey;
+  margin-bottom: 2rem;
+  min-height: 3rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.medical-behav-requirement-btn {
+  padding: 1rem;
+  background: white;
+  border: none;
+}
+
+button.activepetbtn {
+  border-bottom: 3px solid grey;
+  padding: 1rem;
+  background: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.pet-medical-behav-adoptrequirment-content-container {
+  background: white;
+
+  margin-top: 1rem;
+
+}
+
+p.pet-medical-behav-adoptrequirment-content {
+  padding: 20px;
+}
+
+.ngo-details-container {
+  background: white;
+  width: 69%;
+  margin-top: 2rem;
+  min-height: 10rem;
+}
+
+.pet-adoption-action-details-container {
+  width: 80%;
+  background: white;
+  margin-left: 10%;
+  margin-bottom: 1rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.details-content {
+  padding: 17px;
+}
+
+.pet-small-description-container {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.pet-details {
+  display: flex;
+  align-items: center;
+}
+
+span.pet-detail {
+  margin-right: 10px;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 15px;
+  background-color: #000;
+  margin: 0 10px;
+}
+
+
+
+button.pet-small-description-action-btn {
+  padding: 0.7rem;
+  border: none;
+  color: white;
+  background: #162A51;
+  margin-left: 1rem;
+  border-radius: 4px;
+}
+
+#pet-small-description-action-btn-adopt {
+  background-color: #D3DB50;
+}
+
+img.profilepic-small-image-conatiner-thumbnail {
+  width: 14rem;
+  height: 12rem;
+  object-fit: cover;
+}
+
+/* single pet and image gallery ends*/
+
+/*adoption form start here*/
+
+.radio-container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-container input[type="radio"] {
+  margin-right: 10px;
+}
+
+.radio-container label {
+  margin-right: 10px;
+  color: white;
+}
+
+button.adoption_form_btn_class {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 2px;
+  background: #D3DB50;
+}
+
+.adoption-form-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  color: white;
+  font-size: 2rem;
+}
+
+/*adoption form start here*/
+/*all pets component start here */
+.row.allpets_container {
+  margin:1rem;
+
+}
+.AllPets{
+  /* background-color: #8D4DF4; */
+}
+.filter_sort_container {
+  background-color: #162A51;
+  padding: 1rem;
+  /* margin: 9.4rem; */
+  border-radius: 0.4rem;
+  align-items: center;
+}
+.pets-filter-container{
+  font-size: 3rem;
+}
+.pet_filter_select {
+  z-index: 2;
+  position:inherit;
+  padding: 1rem;
+  /* width: 15rem; */
+  border-radius: 1rem;
+  background-color: #fff;
+  transition: opacity .2s;
+  list-style: none;
+  text-align: left;
+  margin-left: 16%;
+}
+
+.pet_filter_options {
+  display:inline-block;
+  padding: 1rem 1rem;
+  text-align: center;
+  cursor:pointer;
+  
+}
+
+.pet_filter_options:hover {
+  color: #7E90D1;
+}
+
+.pet_sort_label {
+  color: white;
+  margin-right: 1rem;
+  font-size: 1.8rem;
+}
+
+.pet_select_sort {
+  width: 23rem;
+  padding: 2rem;
+  line-height: 1.6rem;
+  font-size: 1.8rem;
+  border-radius: 0.6rem;
+}
+
+.pet_filter_select_input {
+  padding: 0.5rem;
+  outline: none;
+}
+
+/*all pets component start here */
+/*user profile start here */
+.col.col-md-6.adoption_request_main_container {
+  background: #E7E9F0;
+  padding: 1rem;
+  margin: 10px;
+  width: 44%;
+  border-radius: 12px;
+  margin-left: 4%;
+}
+
+.row.adoption_request_inner_container {
+  align-items: center;
+}
+
+img.adoption_request_overview_image {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 80px;
+}
+
+.adoption_request_inner_container_right {
+  text-align: left;
+}
+
+.user_adoption_data_container_title {
+  text-align: left;
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+}
+
+.adoption_request_prev_next_btn_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.adoption_request_prev_next_btn {
+  padding: 10px;
+  border-radius: 23px;
+  border: 1px solid #3A383C;
+  color: #3A383C;
+  cursor: pointer;
+}
+
+.user_profile_data_container {
+  width: 93%;
+  background-color: #E7E9F0;
+  padding: 2rem;
+}
+
+.user_middle_container {
+  text-align: left;
+}
+
+.user_profile_contact_info_btn {
+  padding: 10px;
+  border: none;
+  background: white;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+/*user profile ends here */
+/*faq page start here */
+.frequently_asked_questions_inner_container {
+  width: 80%;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 4rem;
+}
+
+h2.frequently_asked_questions_page_heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.frequently_asked_questions_question_container {
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.frequently_asked_questions_answer_container {
+  padding: 10px;
+}
+
+/*faq page ends here */

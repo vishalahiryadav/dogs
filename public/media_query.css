@@ -1,0 +1,209 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 575px) {
+    html {
+        font-size: 6.5px;
+    }
+
+    .hero_image_text,
+    p.hero_image_sub_text {
+        top: 20%;
+        transform: translate(-50%, -50%);
+        font-size: 4rem;
+        line-height: 3rem;
+
+        /* padding: 1rem; */
+    }
+
+    p.hero_image_sub_text {
+        top: 55%;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .pop_up_login_form{
+        width: 75%;
+    }
+
+    .pet_category_select_home_container {
+        padding: 1rem 2rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    /* single pet and image gallery start*/
+    .selected-image {
+        width: 95%;
+        height: 32rem;
+        /* height: 30rem; */
+    } 
+    /*adoption form start here*/
+    .adoption-form-container  {
+        width: 85%;
+    }
+
+.col.col-md-6.single-pet-details {
+    padding: 1rem;
+  }
+    button.medical-behav-requirement-btn {
+        font-size: 1.7rem;
+      }
+      
+      button.activepetbtn {
+        font-size: 1.5rem;
+      }
+    /*Newsletter section */
+    .newsletter-from-container {
+        padding: 1rem;
+    }
+
+    .newsletter-form-inner-container {
+        width: 100%;
+    }
+
+
+    .newsletter-form-inner-container p {
+        width: 40rem;
+    }
+
+    .newsletter_form_input {
+        padding: 1rem;
+        font-size: 2rem;
+        width: 30rem;
+
+    }
+
+    .news_btn_class {
+        padding: 1rem 1rem;
+    }
+
+    /* Footer Section start here*/
+
+    .footer_contact_us_cotainer {
+        padding-top: 1rem;
+    }
+
+    .footer_about_us_container,
+    .footer_useful_link_cotainer,
+    .footer_contact_us_cotainer {
+        text-align: center;
+        padding: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 575px)and (max-width: 768px) {
+    html {
+        font-size: 7px;
+        background: tan;
+    }
+
+    /* first view */
+    .pet_category_select_home_container {
+        margin-top: 0rem;
+    }
+
+    body {
+        /* background: tan; */
+        /* color: brown; */
+    }
+   /* single pet and image gallery start*/
+   .selected-image {
+    width: 95%;
+    /* height: 30rem; */
+}           
+    /* pet card start here*/
+    .recent-added-pets-container {
+        gap: 1rem;
+    }
+
+    .pet_card_media_img {
+        height: 15rem;
+        object-fit: cover;
+    }
+
+    .card {
+        height: 20rem;
+        /* width: 25rem; */
+    }
+
+    /*Newsletter section */
+    .newsletter_form_input {
+        width: 40rem;
+
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    html {
+        font-size: 8px;
+        background: #F2EDFB;
+    }
+
+    /*Start Login button */
+    .pop_up_login_form,.adoption-form-container  {
+        width: 50rem;
+    }
+
+    /* single pet and image gallery start*/
+    .selected-image {
+        width: 95%;
+        /* height: 30rem; */
+    }
+
+    /* pet card start here*/
+
+    .pet_card_media_img {
+        height: 15rem;
+        object-fit: cover;
+    }
+
+    .card {
+        height: 20rem;
+        /* width: 25rem; */
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    html {
+        font-size: 8.5px;
+        background: orange;
+    }
+
+   /* single pet and image gallery start*/
+   .selected-image {
+    width: 95%;
+    /* height: 30rem; */
+} 
+    /* pet card start here*/
+ .pet_card_media_img {
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    .card {
+        height: 25rem;
+        /* width: 25rem; */
+    }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 10px;
+        /* background: rgb(43, 172, 150); */
+    }
+   /* single pet and image gallery start*/
+   .selected-image {
+    width: 95%;
+    /* height: 30rem; */
+} 
+    .home_pet_sort_landing_page_container {
+        justify-content: center;
+    }
+}
